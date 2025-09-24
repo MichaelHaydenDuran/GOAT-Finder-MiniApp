@@ -1,0 +1,31 @@
+{
+  "name": "goat-finder-miniapp",
+  "version": "1.0.0",
+  "description": "This is a full stack Mini Web App that seeks to help goat owners find a suitable mate for lady goats to bear strong heirs and carry on the GOAT bloodline.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelHaydenDuran/GOAT-Finder-MiniApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MichaelHaydenDuran/GOAT-Finder-MiniApp/issues"
+  },
+  "homepage": "https://github.com/MichaelHaydenDuran/GOAT-Finder-MiniApp#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mongodb": "^6.20.0",
+    "mongoose": "^8.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
