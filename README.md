@@ -1,2 +1,8 @@
 # GOAT-Finder-MiniApp
-This is a full stack Mini Web App that seeks to help goat owners find a suitable mate for lady goats to bear strong heirs and carry on the GOAT bloodline.
+App Story: “This SPA lets visitors create, view, sort, update, and delete goats to help owners find suitable mates. Sort by name, breed, age, weight, price, or temperament. Optional image upload is supported.”
+
+Full code attribution: Michael Hayden Duran
+
+Security: .env, Helmet, CORS, rate limit, no secrets in repo.
+
+Tech stack: Node, Express, MongoDB, REST API, Render, dotenv, nodemon.
