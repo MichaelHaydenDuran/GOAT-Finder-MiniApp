@@ -1,11 +1,11 @@
-const router = require('express').Router();
+// routes/goat.routes.js
+const express = require('express');
 const ctrl = require('../controllers/goatController');
 
-// simple, role-less CRUD
-router.get('/', ctrl.list);
-router.get('/:id', ctrl.get);
-router.post('/', ctrl.create);
-router.put('/:id', ctrl.update);
-router.delete('/:id', ctrl.remove);
-
+const router = express.Router();
+router.get('/', ctrl.list);       // filterable list
+router.get('/:id', ctrl.get);     // single
+router.post('/', ctrl.create);    // create
+router.patch('/:id', ctrl.update);// partial update
+router.delete('/:id', ctrl.remove);// delete
 module.exports = router;
